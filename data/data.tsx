@@ -141,15 +141,16 @@ export const socialLinks: SocialLink[] = [
   { name: "Instagram", href: "https://www.instagram.com/asiet_iedc", icon: <Instagram className="h-6 w-6" /> },
   { name: "LinkedIn", href: "https://www.linkedin.com/company/iedc-asiet/", icon: <Linkedin className="h-6 w-6" /> },
 ]
+// email: "adishankaraiedc@gmail.com",
 
 // Contact Information
 export const contactInfo: ContactInfo = {
-  email: "iedc@example.com",
-  phone: "+123 456 7890",
+  email: "adishankaraiedc@gmail.com",
+  phone: "+91 73064 54832",
   address: ["IEDC BootCamp, ASIET,", "Kalady, Kerala - 683574"],
   officeHours: [
     { days: "Monday - Friday", hours: "9:00 AM - 5:00 PM" },
-    { days: "Saturday", hours: "10:00 AM - 2:00 PM" },
+    { days: "Saturday", hours: "opened for project" },
     { days: "Sunday", hours: "Closed" },
   ],
 }
@@ -1292,13 +1293,13 @@ export const contactData = {
     subtitle: "Have questions or want to get involved? Reach out to us!",
   },
   contactInfo: {
-    email: "iedc@example.com",
-    phone: "+123 456 7890",
-    address: ["IEDC Office, College Campus,", "City, State - 123456"],
+    email: "adishankaraiedc@gmail.com",
+    phone: "+91 73064 54832",
+    address: ["IEDC BootCamp, ASIET,", "Kalady, Kerala - 683574"],
   },
   officeHours: [
-    { days: "Monday - Friday", hours: "9:00 AM - 5:00 PM" },
-    { days: "Saturday", hours: "10:00 AM - 2:00 PM" },
+    { days: "Monday - Friday", hours: "9:00 AM - 4:00 PM" },
+    { days: "Saturday", hours: "open for student project development" },
     { days: "Sunday", hours: "Closed" },
   ],
   faqs: [
@@ -1374,6 +1375,35 @@ export const contactData = {
   mapSection: {
     title: "Find Us",
     subtitle: "Visit our office to learn more about our programs and initiatives",
+    mapEmbed: (
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.3163114677605!2d76.42670313444827!3d10.177936142501386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDEwJzQwLjYiTiA3NsKwMjUnNDUuNCJF!5e0!3m2!1sen!2sin!4v1709960012345!5m2!1sen!2sin"
+        width="3000"
+        height="1100.6"
+        style={{
+          border: "none",
+          width: '100%',
+          height: '100%',
+          borderRadius: "0.75rem",
+          boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.1)",
+          maxWidth: "3000.4px",
+          maxHeight: "1100.6px"
+        }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        title="ASIET IEDC Location"
+      ></iframe>
+    ),
+    mapLink: "https://maps.google.com/maps?q=10.177936104149945,76.42928813995687",
+    directions: {
+      title: "Getting Here",
+      items: [
+        "Located in Adi Shankara Institute of Engineering and Technology, Kalady",
+        "15 minutes from Cochin International Airport",
+        "5 minutes from Kalady town center"
+      ]
+    }
   },
 }
 
@@ -1389,15 +1419,15 @@ export const footerData = {
     { name: "Gallery", href: "/gallery" },
   ],
   contactInfo: {
-    email: "iedc@example.com",
-    phone: "+123 456 7890",
-    address: ["IEDC Office, College Campus,", "City, State - 123456"],
+    email: "adishankaraiedc@gmail.com",
+    phone: "+91 73064 54832",
+    address: ["IEDC BootCamp, ASIET,", "Kalady, Kerala - 683574"],
   },
   socialLinks: [
-    { name: "Facebook", href: "#", icon: <Facebook className="h-6 w-6" /> },
-    { name: "Youtube", href: "#", icon: <Youtube className="h-6 w-6" /> },
-    { name: "Instagram", href: "#", icon: <Instagram className="h-6 w-6" /> },
-    { name: "LinkedIn", href: "#", icon: <Linkedin className="h-6 w-6" /> },
+    { name: "Facebook", href: "https://www.facebook.com/profile.php?id=100090497731078&mibextid=rS40aB7S9Ucbxw6v", icon: <Facebook className="h-6 w-6" /> },
+    { name: "Youtube", href: "https://youtube.com/@asiiedc?si=AwrDJC7qqMPRFrpP", icon: <Youtube className="h-6 w-6" /> },
+    { name: "Instagram", href: "https://www.instagram.com/asiet_iedc", icon: <Instagram className="h-6 w-6" /> },
+    { name: "LinkedIn", href: "https://www.linkedin.com/company/iedc-asiet/", icon: <Linkedin className="h-6 w-6" /> },
   ],
   copyright: {
     text: "© {year} IEDC. All rights reserved.",

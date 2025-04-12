@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "IEDC - Innovation and Entrepreneurship Development Cell",
   description: "Fostering innovation and entrepreneurship among students",
-    generator: 'v0.dev'
+    generator: 'ashutosh'
 }
 
 export default function RootLayout({

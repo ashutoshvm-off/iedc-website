@@ -26,19 +26,21 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">Contact Us</h3>
             <ul className="mt-4 space-y-2">
               <li className="flex items-center gap-2">
-                {footerData.socialLinks[2].icon}
+                {/* Replace or remove the invalid property */}
+                <span className="sr-only">Contact Icon</span>
                 <a href={`mailto:${contactInfo.email}`} className="text-blue-200 hover:text-white">
                   {contactInfo.email}
                 </a>
               </li>
               <li className="flex items-center gap-2">
-                {footerData.socialLinks[1].icon}
+                {/* Replace with the correct property or remove if not applicable */}
+                {/* Icon placeholder removed as 'icon' does not exist on 'ContactInfo' */}
                 <a href={`tel:${contactInfo.phone}`} className="text-blue-200 hover:text-white">
                   {contactInfo.phone}
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                {footerData.socialLinks[0].icon}
+                {/* Placeholder for icon or remove this line */}
                 <span className="text-blue-200">
                   {contactInfo.address[0]}
                   <br />
