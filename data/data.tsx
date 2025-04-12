@@ -1372,6 +1372,32 @@ export const contactData = {
       loadingText: "Sending...",
     },
   },
+  socialMedia: {
+    title: "Connect With Us",
+    subtitle: "Follow us on social media for updates and announcements",
+    links: [
+      { 
+        name: "Facebook", 
+        href: "https://www.facebook.com/profile.php?id=100090497731078&mibextid=rS40aB7S9Ucbxw6v",
+        icon: <Facebook className="h-8 w-8 hover:text-blue-600 transition-colors" />
+      },
+      { 
+        name: "Youtube", 
+        href: "https://youtube.com/@asiiedc?si=AwrDJC7qqMPRFrpP",
+        icon: <Youtube className="h-8 w-8 hover:text-red-600 transition-colors" />
+      },
+      { 
+        name: "Instagram", 
+        href: "https://www.instagram.com/asiet_iedc",
+        icon: <Instagram className="h-8 w-8 hover:text-pink-600 transition-colors" />
+      },
+      { 
+        name: "LinkedIn", 
+        href: "https://www.linkedin.com/company/iedc-asiet/",
+        icon: <Linkedin className="h-8 w-8 hover:text-blue-700 transition-colors" />
+      }
+    ]
+  },
   mapSection: {
     title: "Find Us",
     subtitle: "Visit our office to learn more about our programs and initiatives",
