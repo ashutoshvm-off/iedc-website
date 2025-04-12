@@ -136,8 +136,8 @@ export const navItems: NavItem[] = [
 
 // Social Links
 export const socialLinks: SocialLink[] = [
-  { name: "Facebook", href: "#", icon: <Facebook className="h-6 w-6" /> },
-  { name: "Youtube", href: "#", icon: <Youtube className="h-6 w-6" /> },
+  { name: "Facebook", href: "https://www.facebook.com/profile.php?id=100090497731078&mibextid=rS40aB7S9Ucbxw6v", icon: <Facebook className="h-6 w-6" /> },
+  { name: "Youtube", href: "https://youtube.com/@asiiedc?si=AwrDJC7qqMPRFrpP", icon: <Youtube className="h-6 w-6" /> },
   { name: "Instagram", href: "https://www.instagram.com/asiet_iedc", icon: <Instagram className="h-6 w-6" /> },
   { name: "LinkedIn", href: "https://www.linkedin.com/company/iedc-asiet/", icon: <Linkedin className="h-6 w-6" /> },
 ]
