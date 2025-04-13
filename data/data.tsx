@@ -331,7 +331,7 @@ export const aboutData = {
     {
       name: "Dr. Eldose K K",
       role: "Cheif Coordinator of IEDC and TBI",
-      image: "/images/About/eldhosekk.png",
+      image: "/images/About/eldhosekk.png?height=275&width=300",
     },
     {
       name: "Asst Prof. Eldhose P Sim",
@@ -1004,21 +1004,21 @@ export const excomData = {
       name: "Dr. Jane Smith",
       position: "Faculty Coordinator",
       department: "Computer Science",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/About/eldhosekk.png?height=300&width=300",
       bio: "Dr. Smith has over 15 years of experience in technology entrepreneurship and has mentored numerous successful startups.",
     },
     {
       name: "Prof. John Doe",
       position: "Technical Advisor",
       department: "Electronics",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/About/eldhosekk.png?height=300&width=300",
       bio: "Prof. Doe specializes in product development and has helped students convert their ideas into viable products.",
     },
     {
       name: "Dr. Robert Johnson",
       position: "Industry Liaison",
       department: "Business Administration",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/About/eldhosekk.png?height=300&width=300",
       bio: "Dr. Johnson brings industry connections and expertise in securing funding for early-stage startups.",
     },
   ],
