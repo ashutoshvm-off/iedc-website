@@ -80,7 +80,6 @@ export type ExcomMember = {
   department: string
   year?: string
   social?: {
-    email?: string
     linkedin?: string
     instagram?: string
   }
@@ -356,243 +355,223 @@ export const excomData = {
   },
   currentExcom: [
     {
-      name: "John Doe",
-      position: "Chairperson",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Arjun Bittaj",
+      position: "IEDC Lead",
+      image: "/images/excom/arjunbittaj.jpg?height=300&width=300",
       department: "Computer Science",
       year: "Final Year",
       social: {
-        email: "john@example.com",
-        linkedin: "#",
-        instagram: "#"
+        linkedin: "https://www.linkedin.com/in/arjun-bittaj-b16001251/",
+        instagram: "https://www.instagram.com/arjun_bittaj"
       },
     },
     {
-      name: "Jane Smith",
-      position: "Vice Chairperson",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Aparna Prasad",
+      position: "IEDC Lead",
+      image: "/images/excom/aparnaprasad.jpg?height=300&width=300",
       department: "Electronics",
       year: "Final Year",
       social: {
-        email: "jane@example.com",
         linkedin: "#",
-        instagram: "#"
+        instagram: "https://www.instagram.com/aparna_prasad___/"
       },
     },
     {
-      name: "Michael Johnson",
-      position: "Secretary",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Mechanical",
-      year: "Pre-Final Year",
+      name: "Luthfiya Kamal",
+      position: "Event Lead and IPR Coordinator",
+      image: "/images/excom/luthfiakamal.jpg?height=300&width=300",
+      department: "Biomedical",
+      year: "Final Year",
       social: {
-        email: "michael@example.com",
-        linkedin: "#",
-        instagram: "#"
+        linkedin: "https://www.linkedin.com/in/luthfiya/",
+        instagram: "https://www.instagram.com/l.u.t.h.h/"
       },
     },
     {
-      name: "Emily Brown",
-      position: "Treasurer",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Electrical",
-      year: "Pre-Final Year",
+      name: "Ajin P D",
+      position: "Event Lead and IPR Coordinator",
+      image: "/images/excom/ajinpd.jpg?height=300&width=300",
+      department: "Computer Science (AI)",
+      year: "Final Year",
       social: {
-        email: "emily@example.com",
-        linkedin: "#",
-        instagram: "#"
+        linkedin: "https://www.linkedin.com/in/ajin-p-d-94b37a212/",
+        instagram: "https://www.instagram.com/ajin_p_d/"
       },
     },
     {
-      name: "David Wilson",
+      name: "Ashutosh V M",
       position: "Technical Lead",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Computer Science",
-      year: "Final Year",
-      social: {
-        email: "david@example.com",
-        linkedin: "#",
-        instagram: "#"
-      },
-    },
-    {
-      name: "Sarah Lee",
-      position: "Marketing Lead",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Business Administration",
-      year: "Pre-Final Year",
-      social: {
-        email: "sarah@example.com",
-        linkedin: "#",
-        instagram: "#"
-      },
-    },
-    {
-      name: "Robert Chen",
-      position: "Design Lead",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Design",
-      year: "Final Year",
-      social: {
-        email: "robert@example.com",
-        linkedin: "#",
-        instagram: "#"
-      },
-    },
-    {
-      name: "Lisa Wang",
-      position: "Content Lead",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Media Studies",
-      year: "Pre-Final Year",
-      social: {
-        email: "lisa@example.com",
-        linkedin: "#",
-        instagram: "#"
-      },
-    },
-    {
-      name: "James Miller",
-      position: "Event Coordinator",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Event Management",
-      year: "Final Year",
-      social: {
-        email: "james@example.com",
-        linkedin: "#",
-        instagram: "#"
-      },
-    },
-    {
-      name: "Olivia Garcia",
-      position: "Outreach Coordinator",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Public Relations",
-      year: "Pre-Final Year",
-      social: {
-        email: "olivia@example.com",
-        linkedin: "#",
-        instagram: "#"
-      },
-    },
-    {
-      name: "Daniel Martinez",
-      position: "Innovation Lead",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Mechanical",
-      year: "Final Year",
-      social: {
-        email: "daniel@example.com",
-        linkedin: "#",
-        instagram: "#"
-      },
-    },
-    {
-      name: "Sophia Rodriguez",
-      position: "Startup Coordinator",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Business Administration",
-      year: "Final Year",
-      social: {
-        email: "sophia@example.com",
-        linkedin: "#",
-        instagram: "#"
-      },
-    },
-    {
-      name: "William Taylor",
-      position: "Technical Member",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/images/excom/ashutoshvm.jpg?height=300&width=300",
       department: "Computer Science",
       year: "Pre-Final Year",
       social: {
-        email: "william@example.com",
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/ashutoshvm/",
+        instagram: "https://www.instagram.com/the__.anonymous_/"
+      },
+    },
+    {
+      name: "Sreeraj S",
+      position: "Technical Lead",
+      image: "/images/excom/sreerajs.jpg?height=300&width=300",
+      department: "Computer Science",
+      year: "Final Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/sreeraj-s-8926b1226/",
+        instagram: "https://www.instagram.com/_penguin_bongo_/"
+      },
+    },
+    {
+      name: "Shoun Augustine",
+      position: "Technical Lead",
+      image: "/images/excom/shouns.jpg?height=300&width=300",
+      department: "Computer Science",
+      year: "Final Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/shoun-a-294966225/",
         instagram: "#"
       },
     },
     {
-      name: "Ava Thomas",
-      position: "Design Member",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Design",
+      name: "Malavika Muraleedharan",
+      position: "Women Entrepreneurship Lead",
+      image: "/images/excom/malavika.jpg?height=300&width=300",
+      department: "Computer Science(AI)",
       year: "Pre-Final Year",
       social: {
-        email: "ava@example.com",
-        linkedin: "#",
-        instagram: "#"
+        linkedin: "https://www.linkedin.com/in/malavika-muraleedharan-b6807b2bb/",
+        instagram: "https://www.instagram.com/_malavi.ka__/"
       },
     },
     {
-      name: "Ethan White",
-      position: "Marketing Member",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Marketing",
+      name: "Nimmy Jolly",
+      position: "Women Entrepreneurship Lead",
+      image: "/images/excom/nimmikjolly.jpg?height=300&width=300",
+      department: "Computer Science",
+      year: "Final Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/nimmy-k-jolly-06351b226/",
+        instagram: "https://www.instagram.com/nimmy_jolly/"
+      },
+    },
+    {
+      name: "Arjun S",
+      position: "Community Lead",
+      image: "/images/excom/arjuns.jpg?height=300&width=300",
+      department: "Computer Science",
+      year: "Final Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/arjun-s-622062230/",
+        instagram: "https://www.instagram.com/arjun._2002/"
+      },
+    },
+    {
+      name: "Lakshmi Nandana R",
+      position: "Community Lead",
+      image: "/images/excom/lakshminandana.jpg?height=300&width=300",
+      department: "Computer Science",
       year: "Pre-Final Year",
       social: {
-        email: "ethan@example.com",
-        linkedin: "#",
-        instagram: "#"
+        linkedin: "https://www.linkedin.com/in/lakshmi-nandana-r-504596231/",
+        instagram: "https://www.instagram.com/lakshmeeey/"
       },
     },
     {
-      name: "Isabella Harris",
-      position: "Content Creator",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Media Studies",
+      name: "Ameesh Muhammed ",
+      position: "Creative and Innovative Lead",
+      image: "/images/excom/ameesh.jpg?height=300&width=300",
+      department: "Computer Science(AI)",
       year: "Pre-Final Year",
       social: {
-        email: "isabella@example.com",
-        linkedin: "#",
-        instagram: "#"
+        linkedin: "https://www.linkedin.com/in/ameeshm/",
+        instagram: "https://www.instagram.com/4m335h/"
       },
     },
     {
-      name: "Mason Clark",
-      position: "Event Member",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Event Management",
-      year: "Pre-Final Year",
+      name: "Adarsh Ajith",
+      position: "Creative and Innovative Lead",
+      image: "/images/excom/adarshajith.jpg?height=300&width=300",
+      department: "Computer Science(AI)",
+      year: "Final Year",
       social: {
-        email: "mason@example.com",
-        linkedin: "#",
-        instagram: "#"
+        linkedin: "https://www.linkedin.com/in/adarsh-ajith/",
+        instagram: "https://www.instagram.com/shubudian?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
       },
     },
     {
-      name: "Charlotte Lewis",
-      position: "Outreach Member",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Public Relations",
-      year: "Pre-Final Year",
+      name: "Nanditha Nambyar",
+      position: "Finance Lead",
+      image: "/images/excom/nanditanambyar.jpg?height=300&width=300",
+      department: "Computer Science",
+      year: "Final Year",
       social: {
-        email: "charlotte@example.com",
-        linkedin: "#",
-        instagram: "#"
+        linkedin: "https://www.linkedin.com/in/nanditha-nambiar-aa66a124b/",
+        instagram: "https://www.instagram.com/feat.nanditha/"
       },
     },
     {
-      name: "Liam Walker",
-      position: "Innovation Member",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Rohit James",
+      position: "Finance Lead",
+      image: "/images/excom/rohit.jpg?height=300&width=300",
       department: "Mechanical",
       year: "Pre-Final Year",
       social: {
-        email: "liam@example.com",
         linkedin: "#",
+        instagram: "https://www.instagram.com/r_o_c_k_u___/"
+      },
+    },
+    {
+      name: "Nandana Silju",
+      position: "Finance Lead",
+      image: "/images/excom/nandana.jpg?height=300&width=300",
+      department: "Computer Science",
+      year: "2nd Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/nandana-silju-3040a3287/",
+        instagram: "https://www.instagram.com/nandana_silju/"
+      },
+    },
+    {
+      name: "Rithwik Vallabhan",
+      position: "Quality and operations Lead",
+      image: "/images/excom/rithwik.jpg?height=300&width=300",
+      department: "Computer Science",
+      year: "Final Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/rithwik-vallabhan-tv-b01232220/",
+        instagram: "https://www.instagram.com/rithwik.vallabhan/"
+      },
+    },
+    {
+      name: "Aleena Nelson",
+      position: "Quality and operations Lead",
+      image: "/images/excom/aleenanelson.jpg?height=300&width=300",
+      department: "Biomedical",
+      year: "Final Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/aleenanelson/",
+        instagram: "https://www.instagram.com/december_solitude/"
+      },
+    },
+    {
+      name: "Melvin Mathew Jacob",
+      position: "Branding and Marketing Lead",
+      image: "/images/excom/melvin.jpg?height=300&width=300",
+      department: "Biomedical",
+      year: "Final Year",
+      social: {
+        linkedin: "https://www.linkedin.com/in/melvinmathewjacob/",
         instagram: "#"
       },
     },
     {
-      name: "Amelia Hall",
-      position: "Startup Member",
-      image: "/placeholder.svg?height=300&width=300",
-      department: "Business Administration",
-      year: "Pre-Final Year",
+      name: "Sanchu M",
+      position: "Branding and Marketing Lead",
+      image: "/images/excom/sanchum.jpg?height=300&width=300",
+      department: "EEE",
+      year: "Final Year",
       social: {
-        email: "amelia@example.com",
-        linkedin: "#",
-        instagram: "#"
+        linkedin: "https://www.linkedin.com/in/sanchu-m-6b7a231bb/",
+        instagram: "https://www.instagram.com/sanchu.me/"
       },
     },
   ],

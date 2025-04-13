@@ -4,7 +4,7 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Linkedin, Mail, Instagram } from "lucide-react" // Add Instagram import
+import { Linkedin, Instagram } from "lucide-react" // Remove Mail import
 import { excomData } from "@/data/data"
 
 // Current ExCom Members Data
@@ -78,21 +78,18 @@ export default function ExcomPage() {
                   </p>
                   <div className="mt-4 flex space-x-3">
                     <a
-                      href={`mailto:${member.social.email}`}
-                      className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
-                    >
-                      <Mail className="h-5 w-5" />
-                      <span className="sr-only">Email</span>
-                    </a>
-                    <a
-                      href={member.social.linkedin}
+                      href={member.social?.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
                     >
                       <Linkedin className="h-5 w-5" />
                       <span className="sr-only">LinkedIn</span>
                     </a>
                     <a
-                      href={member.social.instagram}
+                      href={member.social?.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="text-gray-500 hover:text-pink-600 dark:text-gray-400 dark:hover:text-pink-400"
                     >
                       <Instagram className="h-5 w-5" />
