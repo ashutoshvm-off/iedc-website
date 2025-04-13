@@ -16,7 +16,7 @@ export default function Home() {
             className="absolute inset-0 bg-[url('/images/homelogo.png')] bg-center opacity-10"
             style={{ 
               backgroundImage: "url('/images/homelogo.png')",
-              backgroundSize: "46%",
+              backgroundSize: "36%",
               backgroundRepeat: "no-repeat"
             }}
           ></div>

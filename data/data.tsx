@@ -259,7 +259,7 @@ export const aboutData = {
   },
   journey: [
     {
-      year: "2015",
+      year: "2018",
       title: "Foundation",
       description: "IEDC was established with a vision to promote innovation and entrepreneurship among students.",
     },
@@ -324,24 +324,24 @@ export const aboutData = {
   ],
   team: [
     {
-      name: "Dr. Jane Smith",
-      role: "Faculty Coordinator",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Asst Prof. P V Rajaraman",
+      role: "Chief Technology Officer, ASIET",
+      image: "/images/About/pvrajaraman.png",
     },
     {
-      name: "Prof. John Doe",
-      role: "Technical Advisor",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Dr. Eldose K K",
+      role: "Cheif Coordinator of IEDC and TBI",
+      image: "/images/About/eldhosekk.png",
     },
     {
-      name: "Dr. Robert Johnson",
-      role: "Industry Liaison",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Asst Prof. Eldhose P Sim",
+      role: "IEDC Nodal Officer",
+      image: "/images/About/eldhosepsim.png",
     },
     {
-      name: "Prof. Sarah Williams",
-      role: "Entrepreneurship Mentor",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Dr. Sneha Prakash",
+      role: "IEDC Nodal Officer",
+      image: "/images/About/drsnehaprakash.png",
     },
   ],
   achievements: [
