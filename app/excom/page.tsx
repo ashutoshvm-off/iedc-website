@@ -151,7 +151,7 @@ export default function ExcomPage() {
                       <div className="p-4">
                         <h3 className="text-lg font-bold text-gray-900 dark:text-white">{member.name}</h3>
                         <p className="text-darkblue-600 dark:text-darkblue-400">{member.position}</p>
-                        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">{member.department}</p>
+                      
                       </div>
                     </motion.div>
                   ))}
