@@ -118,15 +118,15 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-8">
             {homeData.upcomingEvents.map((event, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                transition={{ duration: 0.5 }}
                 viewport={{ once: true }}
-                className="overflow-hidden rounded-lg bg-white shadow-lg dark:bg-gray-800"
+                className="overflow-hidden rounded-lg bg-white shadow-lg dark:bg-gray-800 max-w-2xl mx-auto w-full"
               >
                 <div className="relative h-48">
                   <Image src={event.image || "/placeholder.svg"} alt={event.title} fill className="object-cover" />

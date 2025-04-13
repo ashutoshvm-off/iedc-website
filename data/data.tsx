@@ -64,8 +64,6 @@ export type TeamMember = {
   social?: {
     email?: string
     linkedin?: string
-    twitter?: string
-    facebook?: string
   }
 }
 
@@ -84,8 +82,7 @@ export type ExcomMember = {
   social?: {
     email?: string
     linkedin?: string
-    twitter?: string
-    facebook?: string
+    instagram?: string
   }
 }
 
@@ -194,22 +191,10 @@ export const homeData = {
   ],
   upcomingEvents: [
     {
-      title: "Startup Bootcamp",
-      date: "June 15-17, 2023",
-      image: "/placeholder.svg?height=400&width=600",
-      description: "A 3-day intensive program to help students develop their startup ideas",
-    },
-    {
-      title: "Tech Hackathon",
-      date: "July 8-9, 2023",
-      image: "/placeholder.svg?height=400&width=600",
-      description: "24-hour coding competition to solve real-world problems using technology",
-    },
-    {
-      title: "Entrepreneurship Summit",
-      date: "August 20, 2023",
-      image: "/placeholder.svg?height=400&width=600",
-      description: "Annual summit featuring keynote speakers, panel discussions, and networking",
+      title: "Excom Call",
+      date: "To Be Announced",
+      image: "/images/excecom.png?height=10&width=600",
+      description: "Join us for our upcoming Excom call where you can participate to be a executive member of IEDC ASIET.",
     },
   ],
   stats: [
@@ -259,29 +244,29 @@ export const aboutData = {
   },
   journey: [
     {
-      year: "2018",
+      year: "2015",
       title: "Foundation",
-      description: "IEDC was established with a vision to promote innovation and entrepreneurship among students.",
+      description: "IEDC was established at ASIET with a vision to promote innovation and entrepreneurship among students.",
     },
     {
       year: "2017",
-      title: "First Startup",
-      description: "Incubated our first student startup which went on to raise seed funding.",
+      title: "B-HUB Inauguration",
+      description: "Adi Shankara Institute of Engineering and Technology inaugurated the B-HUB, a dedicated space for startups.",
     },
     {
       year: "2019",
-      title: "Expansion",
-      description: "Expanded our facilities and launched dedicated incubation space for student startups.",
+      title: "SIET Fab Lab in Top 3 in Kerala",
+      description: "KSIDC approves Business Incubation Centre. Produced marketable products, with state recognition for excellence.",
     },
     {
-      year: "2021",
-      title: "Recognition",
-      description: "Recognized as one of the top college-based entrepreneurship cells in the region.",
+      year: "2020",
+      title: "MSME Approval",
+      description: "MSME approved incubation center at campus.",
     },
     {
-      year: "2023",
-      title: "Today",
-      description: "A thriving community of innovators with over 25 startups incubated and ₹10M+ funding raised.",
+      year: "2024",
+      title: "KSUM Approval for Co-Working Space",
+      description: "KSUM approval for co-working space; over 25 products commercialized. Recognition of coordinators by EDII, KSUM, and Atal Innovation Mission.",
     },
   ],
   successStories: [
@@ -347,18 +332,18 @@ export const aboutData = {
   achievements: [
     {
       icon: <Award className="h-10 w-10 text-darkblue-600" />,
-      title: "Best College IEDC",
-      description: "Recognized as the Best College IEDC by the State Startup Mission in 2022",
+      title: "Best IEDC in State",
+      description: "Recognized as Best IEDC in the state and received Entrepreneurship Enabler Award",
     },
     {
       icon: <Award className="h-10 w-10 text-darkblue-600" />,
-      title: "Innovation Excellence",
-      description: "Awarded for Innovation Excellence by the Ministry of Education in 2021",
+      title: "Best Performance Award",
+      description: "Received Best Performance Award from Kerala Startup Mission in 2020",
     },
     {
       icon: <Award className="h-10 w-10 text-darkblue-600" />,
-      title: "Startup Ecosystem Builder",
-      description: "Recognized as a key Startup Ecosystem Builder by Industry Association in 2023",
+      title: "KSUM approval for co-working space; over 25 products commercialized",
+      description: "Recognition of coordinators by EDII, KSUM, and Atal Innovation Mission in 2024",
     },
   ],
 }
@@ -379,8 +364,7 @@ export const excomData = {
       social: {
         email: "john@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -392,8 +376,7 @@ export const excomData = {
       social: {
         email: "jane@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -405,8 +388,7 @@ export const excomData = {
       social: {
         email: "michael@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -418,8 +400,7 @@ export const excomData = {
       social: {
         email: "emily@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -431,8 +412,7 @@ export const excomData = {
       social: {
         email: "david@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -444,8 +424,7 @@ export const excomData = {
       social: {
         email: "sarah@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -457,8 +436,7 @@ export const excomData = {
       social: {
         email: "robert@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -470,8 +448,7 @@ export const excomData = {
       social: {
         email: "lisa@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -483,8 +460,7 @@ export const excomData = {
       social: {
         email: "james@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -496,8 +472,7 @@ export const excomData = {
       social: {
         email: "olivia@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -509,8 +484,7 @@ export const excomData = {
       social: {
         email: "daniel@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -522,8 +496,7 @@ export const excomData = {
       social: {
         email: "sophia@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -535,8 +508,7 @@ export const excomData = {
       social: {
         email: "william@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -548,8 +520,7 @@ export const excomData = {
       social: {
         email: "ava@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -561,8 +532,7 @@ export const excomData = {
       social: {
         email: "ethan@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -574,8 +544,7 @@ export const excomData = {
       social: {
         email: "isabella@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -587,8 +556,7 @@ export const excomData = {
       social: {
         email: "mason@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -600,8 +568,7 @@ export const excomData = {
       social: {
         email: "charlotte@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -613,8 +580,7 @@ export const excomData = {
       social: {
         email: "liam@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
     {
@@ -626,13 +592,12 @@ export const excomData = {
       social: {
         email: "amelia@example.com",
         linkedin: "#",
-        twitter: "#",
-        facebook: "#",
+        instagram: "#"
       },
     },
   ],
   previousExcom: {
-    "2022-2023": [
+    "2023-2024": [
       {
         name: "Alex Johnson",
         position: "Chairperson",

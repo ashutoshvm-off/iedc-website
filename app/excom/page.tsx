@@ -4,7 +4,7 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Facebook, Twitter, Linkedin, Mail } from "lucide-react"
+import { Linkedin, Mail, Instagram } from "lucide-react" // Add Instagram import
 import { excomData } from "@/data/data"
 
 // Current ExCom Members Data
@@ -48,7 +48,7 @@ export default function ExcomPage() {
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
               Current Executive Committee
             </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400">2023-2024 Academic Year</p>
+            <p className="mx-auto mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400">2024-2025 Academic Year</p>
           </motion.div>
 
           <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -92,18 +92,11 @@ export default function ExcomPage() {
                       <span className="sr-only">LinkedIn</span>
                     </a>
                     <a
-                      href={member.social.twitter}
-                      className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
+                      href={member.social.instagram}
+                      className="text-gray-500 hover:text-pink-600 dark:text-gray-400 dark:hover:text-pink-400"
                     >
-                      <Twitter className="h-5 w-5" />
-                      <span className="sr-only">Twitter</span>
-                    </a>
-                    <a
-                      href={member.social.facebook}
-                      className="text-gray-500 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
-                    >
-                      <Facebook className="h-5 w-5" />
-                      <span className="sr-only">Facebook</span>
+                      <Instagram className="h-5 w-5" />
+                      <span className="sr-only">Instagram</span>
                     </a>
                   </div>
                 </div>
