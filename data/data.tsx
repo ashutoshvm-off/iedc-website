@@ -214,10 +214,10 @@ export const homeData = {
     { number: "₹10M+", label: "Funding Raised" },
   ],
   cta: {
-    title: "Ready to Innovate?",
-    subtitle: "Join IEDC and be a part of the entrepreneurial journey",
-    buttonText: "Get in Touch",
-    buttonLink: "/contact",
+    title: "Ready to Join IEDC?",
+    subtitle: "Become a member and kickstart your entrepreneurial journey",
+    buttonText: "Join IEDC",
+    buttonLink: "https://iedc.startupmission.in/joinus/", // Replace with actual Google Form link
   },
 }
 
