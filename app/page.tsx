@@ -12,7 +12,14 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative flex min-h-screen items-center justify-center bg-gradient-to-br from-blue-800 via-blue-700 to-blue-600 text-white">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute inset-0 bg-[url('/placeholder.svg?height=1080&width=1920')] bg-cover bg-center opacity-10"></div>
+          <div 
+            className="absolute inset-0 bg-[url('/images/homelogo.png')] bg-center opacity-10"
+            style={{ 
+              backgroundImage: "url('/images/homelogo.png')",
+              backgroundSize: "46%",
+              backgroundRepeat: "no-repeat"
+            }}
+          ></div>
         </div>
         <div className="container relative z-10 px-4 py-32 sm:px-6 lg:px-8">
           <motion.div
