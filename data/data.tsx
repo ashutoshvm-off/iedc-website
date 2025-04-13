@@ -164,6 +164,11 @@ export const homeData = {
       { text: "Learn More", href: "/about", variant: "primary" },
       { text: "Our Events", href: "/events", variant: "secondary" },
     ],
+    background: {
+      image: "/placeholder.svg", // You can replace this with your actual bg image path
+      overlay: "bg-black/50", // Add a dark overlay for better text visibility
+      className: "bg-cover bg-center bg-no-repeat min-h-screen" // Tailwind classes for background styling
+    }
   },
   features: [
     {
