@@ -1076,7 +1076,7 @@ export const galleryData = {
       title: "Startup Bootcamp 2023",
       category: "Events",
       date: "June 2023",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/images/Gallery/.png?height=600&width=800",
     },
     {
       id: 2,
@@ -1192,6 +1192,13 @@ export const galleryData = {
     },
     {
       id: 18,
+      title: "Innovation Showcase",
+      category: "Exhibitions",
+      date: "March 2022",
+      image: "/placeholder.svg?height=600&width=800",
+    },
+    {
+      id: 19,
       title: "Innovation Showcase",
       category: "Exhibitions",
       date: "March 2022",
