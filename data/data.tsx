@@ -910,25 +910,25 @@ export const excomData = {
   },
   facultyAdvisors: [
     {
-      name: "Dr. Eldose K K",
+      name: "Dr. Eldhose K K",
       position: "Professor, HOD & Dean",
       department: "Mechanical Engineering",
       image: "/images/About/eldhosekk.png?height=100&width=300",
-      bio: "Dr. Smith has over 15 years of experience in technology entrepreneurship and has mentored numerous successful startups.",
+      bio: "Dr. Eldhose K K has experience in technology entrepreneurship and has mentored students to successfully work on their projects.",
     },
     {
       name: "Asst Prof. Eldhose P Sim",
       position: "Assistant Professor",
       department: "Computer Science",
       image: "/images/About/eldhosepsim.png?height=300&width=300",
-      bio: "Prof. Doe specializes in product development and has helped students convert their ideas into viable products.",
+      bio: "Asst Prof. Eldhose P Sim specializes in product development and has helped students convert their ideas into viable products and also brings industry connections and expertise in securing funding for early-stage startups.",
     },
     {
       name: "Dr. Sneha Prakash",
       position: "Professor",
       department: "Computer Science",
       image: "/images/About/drsnehaprakash.png?height=300&width=300",
-      bio: "Dr. Johnson brings industry connections and expertise in securing funding for early-stage startups.",
+      bio: "Dr. Sneha Prakash brings industry connections and expertise in securing funding for early-stage startups.",
     },
   ],
 }
