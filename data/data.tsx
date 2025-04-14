@@ -199,8 +199,8 @@ export const homeData = {
   stats: [
     { number: "50+", label: "Events Organized" },
     { number: "1000+", label: "Students Impacted" },
-    { number: "25+", label: "Startups Incubated" },
-    { number: "₹10M+", label: "Funding Raised" },
+    { number: "33+", label: "Startups Incubated" },
+    { number: "₹10L+", label: "Funding Raised" },
   ],
   cta: {
     title: "Ready to Join IEDC?",
@@ -717,7 +717,7 @@ export const excomData = {
       {
         name: "Rahul V R",
         position: "Cheif Marketing Officer",
-        image: "/images/excom22-23/.jpg?height=300&width=300",
+        image: "/images/excom22-23/rahulvr.jpg?height=300&width=300",
       },
       {
         name: "Dyna Joshy",
@@ -767,7 +767,7 @@ export const excomData = {
       {
         name: "Harikrishnan S Menon",
         position: "Community Co-Lead",
-        image: "/images/excom22-23/.jpg?height=300&width=300",
+        image: "/images/excom22-23/harikrishnan.jpg?height=300&width=300",
       },
       {
         name: "Seethal Benny",
@@ -777,12 +777,12 @@ export const excomData = {
       {
         name: "Arjun Mani",
         position: "Finance Co-Lead",
-        image: "/images/excom22-23/arjunmani.jpeg?height=300&width=300",
+        image: "/images/excom22-23/arjunmani.jpg?height=300&width=300",
       },
       {
         name: "Gayathri S",
         position: "Marketing Co-Lead",
-        image: "/images/excom22-23/.jpg?height=300&width=300",
+        image: "/images/excom22-23/gayathri.jpg?height=300&width=300",
       },
     ],
     // "2020-2021": [
