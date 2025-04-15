@@ -1044,26 +1044,26 @@ export const galleryData = {
   videos: [
     {
       id: 1,
-      title: "IEDC ASIET Inauguration",
-      thumbnail: "/images/Gallery/video1.jpg",
-      url: "/videos/abcd.mp4",
-      duration: "5:30",
+      title: "Design Thinking Workshop",
+      thumbnail: "/images/thumbnails/tmp1.jpg",
+      url: "/videos/video1.mp4",
+      duration: "1:30",
       date: "December 6, 2023"
     },
     {
       id: 2,
       title: "Innovation Workshop Highlights",
-      thumbnail: "/images/Gallery/video2.jpg",
+      thumbnail: "/images/thumbnails/tmp2.jpg",
       url: "/videos/video2.mp4",
-      duration: "8:45",
+      duration: "2:13",
       date: "January 15, 2024"
     },
     {
       id: 3,
       title: "Startup Success Story",
-      thumbnail: "/images/Gallery/video3.jpg",
+      thumbnail: "/images/thumbnails/tmp3.jpg",
       url: "/videos/video3.mp4",
-      duration: "12:20",
+      duration: "00:52",
       date: "February 1, 2024"
     },
     {
