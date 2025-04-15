@@ -515,7 +515,7 @@ export const excomData = {
       department: "Mechanical",
       year: "Pre-Final Year",
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/rohith-james-30840a1b2/",
         instagram: "https://www.instagram.com/r_o_c_k_u___/"
       },
     },
