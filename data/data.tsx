@@ -372,7 +372,7 @@ export const excomData = {
       department: "Electronics",
       year: "Final Year",
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/aparna-prasad-3075b42a3/",
         instagram: "https://www.instagram.com/aparna_prasad___/"
       },
     },
@@ -428,7 +428,7 @@ export const excomData = {
       year: "Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/shoun-a-294966225/",
-        instagram: "#"
+        instagram: "https://www.instagram.com/elseantrabajo/"
       },
     },
     {
@@ -952,30 +952,42 @@ export const eventsData = {
       category: "Workshop",
       registrationLink: "#",
     },
-    {
-      id: 2,
-      title: "Tech Hackathon",
-      date: "July 8-9, 2023",
-      time: "10:00 AM onwards",
-      location: "Computer Science Block",
-      image: "/placeholder.svg?height=400&width=600",
-      description:
-        "24-hour coding competition to solve real-world problems using technology. Form teams, brainstorm ideas, and build working prototypes. Exciting prizes to be won!",
-      category: "Competition",
-      registrationLink: "#",
-    },
-    {
-      id: 3,
-      title: "Entrepreneurship Summit",
-      date: "August 20, 2023",
-      time: "10:00 AM - 4:00 PM",
-      location: "Conference Hall",
-      image: "/placeholder.svg?height=400&width=600",
-      description:
-        "Annual summit featuring keynote speakers, panel discussions, and networking opportunities. Connect with successful entrepreneurs, investors, and industry leaders.",
-      category: "Conference",
-      registrationLink: "#",
-    },
+    // {
+    //   id: 2,
+    //   title: "Tech Hackathon",
+    //   date: "July 8-9, 2023",
+    //   time: "10:00 AM onwards",
+    //   location: "Computer Science Block",
+    //   image: "/placeholder.svg?height=400&width=600",
+    //   description:
+    //     "24-hour coding competition to solve real-world problems using technology. Form teams, brainstorm ideas, and build working prototypes. Exciting prizes to be won!",
+    //   category: "Competition",
+    //   registrationLink: "#",
+    // },
+    // {
+    //   id: 3,
+    //   title: "Entrepreneurship Summit",
+    //   date: "August 20, 2023",
+    //   time: "10:00 AM - 4:00 PM",
+    //   location: "Conference Hall",
+    //   image: "/placeholder.svg?height=400&width=600",
+    //   description:
+    //     "Annual summit featuring keynote speakers, panel discussions, and networking opportunities. Connect with successful entrepreneurs, investors, and industry leaders.",
+    //   category: "Conference",
+    //   registrationLink: "#",
+    // },
+    // {
+    //   id: 4,
+    //   title: "Entrepreneurship Summit",
+    //   date: "August 20, 2023",
+    //   time: "10:00 AM - 4:00 PM",
+    //   location: "Conference Hall",
+    //   image: "/placeholder.svg?height=400&width=600",
+    //   description:
+    //     "Annual summit featuring keynote speakers, panel discussions, and networking opportunities. Connect with successful entrepreneurs, investors, and industry leaders.",
+    //   category: "Conference",
+    //   registrationLink: "#",
+    // },
   ],
   previousEvents: [
     {
