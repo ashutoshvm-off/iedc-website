@@ -146,7 +146,7 @@ export default function GalleryPage() {
         </div>
       </section>
 
-      {/* Image Categories */}
+      {/* Video Gallery Section */}
       <section className="bg-darkblue-50 py-20 dark:bg-darkblue-900/20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -157,71 +157,64 @@ export default function GalleryPage() {
             className="mb-12 text-center"
           >
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-white">
-              Browse by Category
+              Video Gallery
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400">
-              Explore our gallery by different categories
+              Watch our latest events and activities
             </p>
           </motion.div>
 
-          <Tabs defaultValue={galleryData.categories[1]} className="mx-auto max-w-4xl">
-            <TabsList className="mb-8 grid w-full grid-cols-3 md:grid-cols-6">
-              {galleryData.categories.slice(1).map((category) => (
-                <TabsTrigger key={category} value={category}>
-                  {category}
-                </TabsTrigger>
-              ))}
-            </TabsList>
-            {galleryData.categories.slice(1).map((category) => (
-              <TabsContent key={category} value={category}>
-                <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
-                  {galleryImages
-                    .filter((image) => image.category === category)
-                    .slice(0, expandedCategories[category] ? undefined : 6)
-                    .map((image, index) => (
-                      <motion.div
-                        key={image.id}
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: index * 0.1 }}
-                        className="group cursor-pointer overflow-hidden rounded-lg"
-                        onClick={() => handleImageClick(image.id)}
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {galleryData.videos?.slice(0, showMore ? undefined : 6).map((video, index) => (
+              <motion.div
+                key={video.id}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="group cursor-pointer overflow-hidden rounded-lg"
+                onClick={() => window.open(video.url, '_blank')}
+              >
+                <div className="relative aspect-video overflow-hidden">
+                  <Image
+                    src={video.thumbnail || "/video-placeholder.jpg"}
+                    alt={video.title}
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-black/30 transition-opacity duration-300 group-hover:bg-black/50" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="rounded-full bg-white/30 p-4 backdrop-blur-sm transition-transform duration-300 group-hover:scale-110">
+                      <svg
+                        className="h-8 w-8 text-white"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
                       >
-                        <div className="relative aspect-square overflow-hidden">
-                          <Image
-                            src={image.image || "/placeholder.svg"}
-                            alt={image.title}
-                            fill
-                            className="object-cover transition-transform duration-300 group-hover:scale-110"
-                          />
-                          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"></div>
-                          <div className="absolute bottom-0 left-0 right-0 p-4 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                            <h3 className="text-lg font-bold">{image.title}</h3>
-                            <p className="text-sm">{image.date}</p>
-                          </div>
-                        </div>
-                      </motion.div>
-                    ))}
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="text-lg font-bold text-white">{video.title}</h3>
+                    <p className="text-sm text-white/80">{video.duration}</p>
+                  </div>
                 </div>
-                {galleryImages.filter((image) => image.category === category).length > 6 && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5 }}
-                    viewport={{ once: true }}
-                    className="mt-12 text-center"
-                  >
-                    <Button 
-                      variant="outline" 
-                      onClick={() => toggleCategoryExpansion(category)}
-                    >
-                      {expandedCategories[category] ? "Show Less" : "Show More"}
-                    </Button>
-                  </motion.div>
-                )}
-              </TabsContent>
+              </motion.div>
             ))}
-          </Tabs>
+          </div>
+
+          {galleryData.videos?.length > 6 && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
+              className="mt-12 text-center"
+            >
+              <Button variant="outline" onClick={() => setShowMore(!showMore)}>
+                {showMore ? "Show Less" : "Show More Videos"}
+              </Button>
+            </motion.div>
+          )}
         </div>
       </section>
 

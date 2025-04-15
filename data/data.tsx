@@ -1041,6 +1041,72 @@ export const galleryData = {
     subtitle: "Explore moments from our events, workshops, and activities",
   },
   categories: ["All", "Events", "Workshops", "Competitions", "Exhibitions", "Summit and Feild Trip"],
+  videos: [
+    {
+      id: 1,
+      title: "IEDC ASIET Inauguration",
+      thumbnail: "/images/Gallery/video1.jpg",
+      url: "/videos/abcd.mp4",
+      duration: "5:30",
+      date: "December 6, 2023"
+    },
+    {
+      id: 2,
+      title: "Innovation Workshop Highlights",
+      thumbnail: "/images/Gallery/video2.jpg",
+      url: "/videos/video2.mp4",
+      duration: "8:45",
+      date: "January 15, 2024"
+    },
+    {
+      id: 3,
+      title: "Startup Success Story",
+      thumbnail: "/images/Gallery/video3.jpg",
+      url: "/videos/video3.mp4",
+      duration: "12:20",
+      date: "February 1, 2024"
+    },
+    {
+      id: 4,
+      title: "Entrepreneurship Seminar",
+      thumbnail: "/images/Gallery/video4.jpg",
+      url: "/videos/video4.mp4",
+      duration: "15:00",
+      date: "February 20, 2024"
+    },
+    {
+      id: 5,
+      title: "Product Development Workshop",
+      thumbnail: "/images/Gallery/video5.jpg",
+      url: "/videos/video5.mp4",
+      duration: "10:15",
+      date: "March 5, 2024"
+    },
+    {
+      id: 6,
+      title: "Pitch Competition Finals",
+      thumbnail: "/images/Gallery/video6.jpg",
+      url: "/videos/video6.mp4",
+      duration: "18:30",
+      date: "March 15, 2024"
+    },
+    {
+      id: 7,
+      title: "Student Startup Showcase",
+      thumbnail: "/images/Gallery/video7.jpg",
+      url: "/videos/video7.mp4",
+      duration: "7:45",
+      date: "March 20, 2024"
+    },
+    {
+      id: 8,
+      title: "Design Thinking Session",
+      thumbnail: "/images/Gallery/video8.jpg",
+      url: "/videos/video8.mp4",
+      duration: "14:20",
+      date: "March 25, 2024"
+    }
+  ],
   images: [
     {
       id: 1,
