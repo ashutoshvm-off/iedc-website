@@ -18,6 +18,15 @@ export default function GalleryPage() {
   const [categoryFilter, setCategoryFilter] = useState("All")
   const [showMore, setShowMore] = useState(false)
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
+  const [expandedCategories, setExpandedCategories] = useState<{ [key: string]: boolean }>({})
+
+  // Add this new helper function
+  const toggleCategoryExpansion = (category: string) => {
+    setExpandedCategories(prev => ({
+      ...prev,
+      [category]: !prev[category]
+    }))
+  }
 
   // Filter images based on search and category
   const filteredImages = galleryImages.filter((image) => {
@@ -168,7 +177,7 @@ export default function GalleryPage() {
                 <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
                   {galleryImages
                     .filter((image) => image.category === category)
-                    .slice(0, 6)
+                    .slice(0, expandedCategories[category] ? undefined : 6)
                     .map((image, index) => (
                       <motion.div
                         key={image.id}
@@ -194,6 +203,22 @@ export default function GalleryPage() {
                       </motion.div>
                     ))}
                 </div>
+                {galleryImages.filter((image) => image.category === category).length > 6 && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5 }}
+                    viewport={{ once: true }}
+                    className="mt-12 text-center"
+                  >
+                    <Button 
+                      variant="outline" 
+                      onClick={() => toggleCategoryExpansion(category)}
+                    >
+                      {expandedCategories[category] ? "Show Less" : "Show More"}
+                    </Button>
+                  </motion.div>
+                )}
               </TabsContent>
             ))}
           </Tabs>
