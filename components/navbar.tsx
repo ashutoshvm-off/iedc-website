@@ -44,7 +44,7 @@ export default function Navbar() {
                   scrolled ? "text-blue-600 dark:text-blue-500" : "text-white dark:text-blue-500",
                 )}
               >
-                IEDC
+                IEDC ASIET
               </span>
             </Link>
           </motion.div>
