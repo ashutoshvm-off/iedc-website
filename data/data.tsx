@@ -1507,48 +1507,6 @@ export const galleryData = {
       date: "June 20, 2024",
       image: "/images/Gallery/photo48.jpg?height=600&width=900",
     },
-    // {
-    //   id: 49,
-    //   title: "Ideathon Pitching Competition Winners", 
-    //   category: "Competitions",
-    //   date: "June 20, 2024",
-    //   image: "/images/Gallery/photo46.webp?height=600&width=900",
-    // },
-    // {
-    //   id: 50,
-    //   title: "Ideathon Pitching Competition Winners", 
-    //   category: "Competitions",
-    //   date: "June 20, 2024",
-    //   image: "/images/Gallery/photo46.webp?height=600&width=900",
-    // },
-    // {
-    //   id: 51,
-    //   title: "Ideathon Pitching Competition Winners", 
-    //   category: "Competitions",
-    //   date: "June 20, 2024",
-    //   image: "/images/Gallery/photo46.webp?height=600&width=900",
-    // },
-    //{
-      //   id: 52,
-      //   title: "Ideathon Pitching Competition Winners", 
-      //   category: "Competitions",
-      //   date: "June 20, 2024",
-      //   image: "/images/Gallery/photo46.webp?height=600&width=900",
-      // },
-      //{
-      //   id: 53,
-      //   title: "Ideathon Pitching Competition Winners", 
-      //   category: "Competitions",
-      //   date: "June 20, 2024",
-      //   image: "/images/Gallery/photo46.webp?height=600&width=900",
-      // },
-      //{
-      //   id: 54,
-      //   title: "Ideathon Pitching Competition Winners", 
-      //   category: "Competitions",
-      //   date: "June 20, 2024",
-      //   image: "/images/Gallery/photo46.webp?height=600&width=900",
-      // },
   ],
 }
 
