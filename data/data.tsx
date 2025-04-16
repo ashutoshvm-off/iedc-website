@@ -1130,22 +1130,46 @@ export const galleryData = {
       duration: "14:20",
       date: "October 21-22, 2024"
     },
-    // {
-    //   id: 1012,
-    //   title: "Design Thinking Session",
-    //   thumbnail: "/images/thumbnails/tmp6.png",
-    //   url: "/videos/video8.mp4",
-    //   duration: "14:20",
-    //   date: "March 25, 2024"
-    // },
-    // {
-    //   id: 1013,
-    //   title: "Design Thinking Session",
-    //   thumbnail: "/images/thumbnails/tmp6.png",
-    //   url: "/videos/video8.mp4",
-    //   duration: "14:20",
-    //   date: "March 25, 2024"
-    // },
+    {
+      id: 1012,
+      title: "NAAC Visit",
+      thumbnail: "/images/thumbnails/tmp9.jpg",
+      url: "/videos/video12.mp4",
+      duration: "14:20",
+      date: "March 25, 2024"
+    },
+    {
+      id: 1013,
+      title: "Product Explanation",
+      thumbnail: "/images/thumbnails/tmp10.png",
+      url: "/videos/video13.mp4",
+      duration: "14:20",
+      date: "March 25, 2024"
+    },
+    {
+      id: 1014,
+      title: "Product Explanation",
+      thumbnail: "/images/thumbnails/tmp9.jpg",
+      url: "/videos/video14.mp4",
+      duration: "14:20",
+      date: "March 25, 2024"
+    },
+    {
+      id: 1015,
+      title: "Samagra ",
+      thumbnail: "/images/thumbnails/tmp11.jpg",
+      url: "/videos/video15.mp4",
+      duration: "14:20",
+      date: "March 25, 2024"
+    },
+    {
+      id: 1016,
+      title: "Design Thinking Session",
+      thumbnail: "/images/thumbnails/tmp12.jpg",
+      url: "/videos/video16.mp4",
+      duration: "14:20",
+      date: "March 28, 2025"
+    },
   ],
   images: [
     {
@@ -1462,20 +1486,69 @@ export const galleryData = {
       date: "October 21-22, 2024",
       image: "/images/Gallery/photo45.jpg?height=600&width=900",
     },
+    {
+      id: 46,
+      title: "Ideathon Pitching Competition", 
+      category: "Competitions",
+      date: "March 25, 2025",
+      image: "/images/Gallery/photo46.heic?height=600&width=900",
+    },
+    {
+      id: 47,
+      title: "Ideathon Pitching Competition", 
+      category: "Competitions",
+      date: "March 25, 2025",
+      image: "/images/Gallery/photo47.heic?height=600&width=900",
+    },
+    {
+      id: 48,
+      title: "REVOIR 25", 
+      category: "events",
+      date: "June 20, 2024",
+      image: "/images/Gallery/photo48.jpg?height=600&width=900",
+    },
     // {
-    //   id: 46,
-    //   title: "Ideathon Pitching Competition Winners", 
-    //   category: "Competitions",
-    //   date: "June 20, 2024",
-    //   image: "/images/Gallery/photo45.webp?height=600&width=900",
-    // },
-    // {
-    //   id: 47,
+    //   id: 49,
     //   title: "Ideathon Pitching Competition Winners", 
     //   category: "Competitions",
     //   date: "June 20, 2024",
     //   image: "/images/Gallery/photo46.webp?height=600&width=900",
     // },
+    // {
+    //   id: 50,
+    //   title: "Ideathon Pitching Competition Winners", 
+    //   category: "Competitions",
+    //   date: "June 20, 2024",
+    //   image: "/images/Gallery/photo46.webp?height=600&width=900",
+    // },
+    // {
+    //   id: 51,
+    //   title: "Ideathon Pitching Competition Winners", 
+    //   category: "Competitions",
+    //   date: "June 20, 2024",
+    //   image: "/images/Gallery/photo46.webp?height=600&width=900",
+    // },
+    //{
+      //   id: 52,
+      //   title: "Ideathon Pitching Competition Winners", 
+      //   category: "Competitions",
+      //   date: "June 20, 2024",
+      //   image: "/images/Gallery/photo46.webp?height=600&width=900",
+      // },
+      //{
+      //   id: 53,
+      //   title: "Ideathon Pitching Competition Winners", 
+      //   category: "Competitions",
+      //   date: "June 20, 2024",
+      //   image: "/images/Gallery/photo46.webp?height=600&width=900",
+      // },
+      //{
+      //   id: 54,
+      //   title: "Ideathon Pitching Competition Winners", 
+      //   category: "Competitions",
+      //   date: "June 20, 2024",
+      //   image: "/images/Gallery/photo46.webp?height=600&width=900",
+      // },
   ],
 }
 
