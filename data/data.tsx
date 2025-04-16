@@ -1043,7 +1043,7 @@ export const galleryData = {
   categories: ["All", "Events", "Workshops", "Competitions", "Exhibitions", "Summit and Feild Trip"],
   videos: [
     {
-      id: 1,
+      id: 1001,
       title: "Design Thinking Workshop",
       thumbnail: "/images/thumbnails/tmp1.jpg",
       url: "/videos/video1.mp4",
@@ -1051,7 +1051,7 @@ export const galleryData = {
       date: "December 6, 2023"
     },
     {
-      id: 2,
+      id: 1002,
       title: "Innovation Workshop Highlights",
       thumbnail: "/images/thumbnails/tmp2.jpg",
       url: "/videos/video2.mp4",
@@ -1059,7 +1059,7 @@ export const galleryData = {
       date: "January 15, 2024"
     },
     {
-      id: 3,
+      id: 1003,
       title: "Startup Success Story",
       thumbnail: "/images/thumbnails/tmp3.jpg",
       url: "/videos/video3.mp4",
@@ -1067,7 +1067,7 @@ export const galleryData = {
       date: "February 1, 2024"
     },
     {
-      id: 4,
+      id:1004,
       title: "Entrepreneurship Seminar",
       thumbnail: "/images/thumbnails/tmp4.jpg",
       url: "/videos/video4.mp4",
@@ -1075,7 +1075,7 @@ export const galleryData = {
       date: "march 23, 2024"
     },
     {
-      id: 5,
+      id: 1005,
       title: "Innovation Challenge",
       thumbnail: "/images/thumbnails/tmp5.jpg",
       url: "/videos/video5.mp4",
@@ -1083,7 +1083,7 @@ export const galleryData = {
       date: "March 5, 2024"
     },
     {
-      id: 6,
+      id: 1006,
       title: "Innovation Challenge",
       thumbnail: "/images/thumbnails/tmp5.jpg",
       url: "/videos/video6.mp4",
@@ -1091,7 +1091,7 @@ export const galleryData = {
       date: "March 15, 2024"
     },
     {
-      id: 7,
+      id: 1007,
       title: "Innovation Challenge",
       thumbnail: "/images/thumbnails/tmp5.jpg",
       url: "/videos/video7.mp4",
@@ -1099,7 +1099,7 @@ export const galleryData = {
       date: "March 20, 2024"
     },
     {
-      id: 8,
+      id: 1008,
       title: "Design Thinking Session",
       thumbnail: "/images/thumbnails/tmp6.png",
       url: "/videos/video8.mp4",
@@ -1107,7 +1107,7 @@ export const galleryData = {
       date: "March 25, 2024"
     },
     {
-      id: 9,
+      id: 1009,
       title: "Leap Center Inauguration",
       thumbnail: "/images/thumbnails/tmp7.heic",
       url: "/videos/video9.mp4",
@@ -1115,37 +1115,37 @@ export const galleryData = {
       date: "August 30, 2024"
     },
     {
-      id: 10,
-      title: "Design Thinking Session",
+      id: 1010,
+      title: "IEDC Summit 2024",
       thumbnail: "/images/thumbnails/tmp8.webp",
       url: "/videos/video10.mp4",
       duration: "14:20",
-      date: "March 25, 2024"
+      date: "October 20-21, 2024"
     },
     {
-      id: 11,
-      title: "Design Thinking Session",
-      thumbnail: "/images/thumbnails/tmp6.png",
+      id: 1011,
+      title: "Twilight Hack", 
+      thumbnail: "/images/thumbnails/tmp6.jpg",
       url: "/videos/video8.mp4",
       duration: "14:20",
-      date: "March 25, 2024"
+      date: "October 21-22, 2024"
     },
-    {
-      id: 12,
-      title: "Design Thinking Session",
-      thumbnail: "/images/thumbnails/tmp6.png",
-      url: "/videos/video8.mp4",
-      duration: "14:20",
-      date: "March 25, 2024"
-    },
-    {
-      id: 13,
-      title: "Design Thinking Session",
-      thumbnail: "/images/thumbnails/tmp6.png",
-      url: "/videos/video8.mp4",
-      duration: "14:20",
-      date: "March 25, 2024"
-    },
+    // {
+    //   id: 1012,
+    //   title: "Design Thinking Session",
+    //   thumbnail: "/images/thumbnails/tmp6.png",
+    //   url: "/videos/video8.mp4",
+    //   duration: "14:20",
+    //   date: "March 25, 2024"
+    // },
+    // {
+    //   id: 1013,
+    //   title: "Design Thinking Session",
+    //   thumbnail: "/images/thumbnails/tmp6.png",
+    //   url: "/videos/video8.mp4",
+    //   duration: "14:20",
+    //   date: "March 25, 2024"
+    // },
   ],
   images: [
     {
@@ -1442,40 +1442,40 @@ export const galleryData = {
       image: "/images/Gallery/photo42.webp?height=600&width=900",
     },
     {
-      id: 42,
-      title: "Ideathon Pitching Competition Winners", 
-      category: "Competitions",
-      date: "June 20, 2024",
-      image: "/images/Gallery/photo42.webp?height=600&width=900",
-    },
-    {
       id: 43,
-      title: "Ideathon Pitching Competition Winners", 
+      title: "Twilight Hack", 
       category: "Competitions",
-      date: "June 20, 2024",
-      image: "/images/Gallery/photo43.webp?height=600&width=900",
+      date: "October 21-22, 2024",
+      image: "/images/Gallery/photo43.jpg?height=600&width=900",
     },
     {
       id: 44,
-      title: "Ideathon Pitching Competition Winners", 
+      title: "Twilight Hack", 
       category: "Competitions",
-      date: "June 20, 2024",
-      image: "/images/Gallery/photo44.webp?height=600&width=900",
+      date: "October 21-22, 2024",
+      image: "/images/Gallery/photo44.jpg?height=600&width=900",
     },
     {
       id: 45,
-      title: "Ideathon Pitching Competition Winners", 
+      title: "Twilight Hack", 
       category: "Competitions",
-      date: "June 20, 2024",
-      image: "/images/Gallery/photo45.webp?height=600&width=900",
+      date: "October 21-22, 2024",
+      image: "/images/Gallery/photo45.jpg?height=600&width=900",
     },
-    {
-      id: 46,
-      title: "Ideathon Pitching Competition Winners", 
-      category: "Competitions",
-      date: "June 20, 2024",
-      image: "/images/Gallery/photo46.webp?height=600&width=900",
-    },
+    // {
+    //   id: 46,
+    //   title: "Ideathon Pitching Competition Winners", 
+    //   category: "Competitions",
+    //   date: "June 20, 2024",
+    //   image: "/images/Gallery/photo45.webp?height=600&width=900",
+    // },
+    // {
+    //   id: 47,
+    //   title: "Ideathon Pitching Competition Winners", 
+    //   category: "Competitions",
+    //   date: "June 20, 2024",
+    //   image: "/images/Gallery/photo46.webp?height=600&width=900",
+    // },
   ],
 }
 
