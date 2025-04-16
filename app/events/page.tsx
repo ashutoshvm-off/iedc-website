@@ -281,13 +281,14 @@ export default function EventsPage() {
             <TabsContent value="past">
               <div className="rounded-lg border bg-white p-6 shadow-sm dark:bg-gray-800">
                 <div className="space-y-6">
-                  {previousEvents.slice(0, 5).map((event) => (
+                  {previousEvents.slice(0, 200).map((event) => (
                     <div
                       key={event.id}
                       className="flex flex-col border-b border-gray-200 pb-6 last:border-0 last:pb-0 sm:flex-row"
                     >
                       <div className="mb-4 sm:mb-0 sm:w-1/4">
                         <div className="font-medium text-gray-900 dark:text-white">{event.date}</div>
+                        <div className="text-sm text-gray-500 dark:text-gray-400">{event.category}</div>
                       </div>
                       <div className="sm:w-3/4">
                         <h3 className="text-lg font-bold text-gray-900 dark:text-white">{event.title}</h3>
@@ -300,6 +301,17 @@ export default function EventsPage() {
                     </div>
                   ))}
                 </div>
+                {previousEvents.length > 10 && (
+                  <div className="mt-6 text-center">
+                    <Link
+                      href="#previous-events"
+                      className="inline-flex items-center text-sm text-darkblue-600 hover:text-darkblue-700"
+                    >
+                      View all past events
+                      <ArrowRight className="ml-1 h-4 w-4" />
+                    </Link>
+                  </div>
+                )}
               </div>
             </TabsContent>
           </Tabs>
