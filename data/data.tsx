@@ -568,7 +568,7 @@ export const excomData = {
       year: "Final Year",
       social: {
         linkedin: "https://www.linkedin.com/in/melvinmathewjacob/",
-        instagram: "#"
+        instagram: "https://www.instagram.com/melmastermathew/"
       },
     },
     {
