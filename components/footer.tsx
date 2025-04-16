@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div>
-            <h2 className="text-2xl font-bold">IEDC</h2>
+            <h2 className="text-2xl font-bold">IEDC ASIET</h2>
             <p className="mt-4 text-blue-200">{footerData.description}</p>
           </div>
           <div>
@@ -62,7 +62,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-blue-700 pt-8 text-center">
-          <p className="text-blue-200">&copy; {footerData.copyright.year} IEDC. All rights reserved.</p>
+          <p className="text-blue-200">&copy; {footerData.copyright.year} IEDC ASIET. All rights reserved.</p>
         </div>
       </div>
     </footer>
